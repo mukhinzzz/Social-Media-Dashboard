@@ -76,7 +76,7 @@ body {
 .upper-line {
   display: flex;
   justify-content: space-between;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 .dark-mode-switcher-button {
@@ -109,7 +109,7 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  margin-bottom: 24px;;
+  margin-bottom: 24px;
 }
 
 .big-card:last-child {
@@ -236,7 +236,6 @@ body {
   flex-wrap: wrap;
 }
 
-
 .grid-card {
   width: 17.71vw;
   height: 15.63vh;
@@ -259,7 +258,6 @@ body {
   color: #8c98c6;
 }
 
-
 .grid-card-number {
   font-family: "Inter";
   font-style: normal;
@@ -281,7 +279,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
-  color: #DC414C;
+  color: #dc414c;
 }
 
 .grid-container {
@@ -306,7 +304,7 @@ body {
 .grid-card-number-and-percentage {
   display: flex;
   justify-content: space-between;
-  align-items:baseline;
+  align-items: baseline;
 }
 
 .second-grid-line {
@@ -317,26 +315,106 @@ body {
   overflow-x: hidden;
 } */
 
-
 .big-card:hover {
-  cursor:pointer;
+  cursor: pointer;
   background-color: #343a53;
 }
 
 .grid-card:hover {
-    cursor:pointer;
-    background-color: #343a53;
+  cursor: pointer;
+  background-color: #343a53;
 }
 
 .dark-mode-block:hover {
-  cursor:pointer;
+  cursor: pointer;
 }
 
-/* JS styles */
+/* dark-mode-switcher styles */
 
 .dark-mode-descr-hover {
   color: #ffffff;
 }
 .dark-mode-switcher-button-hover {
   background-color: #343a53;
+}
+
+/* light-theme-styles */
+
+.main-wrapper-light {
+  background-color: #fff;
+}
+
+.light-part-of-wrapper-light {
+  background-color: #f7f9ff;
+}
+
+.main-header-light {
+  color: #1d1f29;
+}
+
+.total-followers-subheader-light {
+  color: #63687d;
+}
+
+.dark-mode-descr-light {
+  color: #848bab;
+}
+
+.dark-mode-switcher-bg-light {
+  background: #aeb3cb;
+}
+
+.dark-mode-switcher-button-light {
+  background-color: #f1f3fa;
+  margin-left: 27px;
+}
+
+.big-card-light {
+  background-color: #f1f3fa;
+}
+
+.nickname-light {
+  color: #63687d;
+}
+
+.big-number-light {
+  color: #1d1f29;
+}
+
+.big-number-descr-light {
+  color: #63687d;
+}
+
+
+.overview-light {
+  color: #63687d;
+}
+
+.grid-card-light {
+  background-color: #f1f3fa;
+}
+
+.grid-card-descr-light {
+  color: #63687D;
+}
+
+.grid-card-number-light {
+  color: #1D1F29;
+}
+
+
+/* light-theme-hover-rules */
+
+.big-card-light:hover {
+  background-color: #e1e4ef;
+}
+
+.grid-card-light:hover {
+  background-color: #e1e4ef;
+}
+
+
+
+.dark-mode-switcher-bg-light-hover {
+  background: linear-gradient(225deg, #40db82 0%, #388fe7 98.02%);
 }
