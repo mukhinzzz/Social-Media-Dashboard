@@ -1,0 +1,47 @@
+@media screen and (max-width: 1400px) and (min-width: 0px) {
+    .big-card {
+        margin-right:55px;
+        margin-left: 55px;
+        
+    }
+
+    .big-card-blue-border {
+        /* margin-right:250px; */
+    }
+
+    .sub-upper-line {
+        /* width:65%; */
+        /* flex-wrap: wrap; */
+        justify-content: space-evenly;
+    }
+
+    .grid-card {
+        margin-right: 55px;
+        margin-left: 55px;
+    }
+
+    .grid-line {
+        justify-content: space-evenly;
+    }
+
+    .big-card:last-child {
+        margin-right: 55px;
+        margin-left: 55px;
+    }
+}
+
+@media screen and (max-width: 947px) and (min-width: 375px) {
+    .big-card {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .big-card:last-child {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+.grid-card {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+}

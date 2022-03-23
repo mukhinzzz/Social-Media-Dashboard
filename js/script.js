@@ -59,9 +59,9 @@ function changeTheme() {
     overview.classList.toggle('overview-light');
 
     for (let i = 0; i < gridCard.length; i++) {
-        gridCard[i].classList.toggle('grid-card-light')
-        gridCardDescr[i].classList.toggle('grid-card-descr-light')
-        gridCardNumber[i].classList.toggle('grid-card-number-light')
+        gridCard[i].classList.toggle('grid-card-light');
+        gridCardDescr[i].classList.toggle('grid-card-descr-light');
+        gridCardNumber[i].classList.toggle('grid-card-number-light');
     }
     darkModeSwitcherBg.classList.toggle('dark-mode-switcher-bg-light-hover');
 }
