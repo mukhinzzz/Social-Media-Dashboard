@@ -1,47 +1,109 @@
-@media screen and (max-width: 1400px) and (min-width: 0px) {
-    .big-card {
-        margin-right:55px;
-        margin-left: 55px;
-        
-    }
+@media screen and (max-width: 1400px) and (min-width: 947px) {
+  .big-card {
+    margin-right: 55px;
+    margin-left: 55px;
+  }
 
-    .big-card-blue-border {
-        /* margin-right:250px; */
-    }
+  .big-card-blue-border {
+    /* margin-right:250px; */
+  }
 
-    .sub-upper-line {
-        /* width:65%; */
-        /* flex-wrap: wrap; */
-        justify-content: space-evenly;
-    }
+  .sub-upper-line {
+    /* width:65%; */
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+  }
 
-    .grid-card {
-        margin-right: 55px;
-        margin-left: 55px;
-    }
+  .grid-card {
+    margin-right: 55px;
+    margin-left: 55px;
+  }
 
-    .grid-line {
-        justify-content: space-evenly;
-    }
+  .grid-line {
+    justify-content: space-evenly;
+  }
 
-    .big-card:last-child {
-        margin-right: 55px;
-        margin-left: 55px;
-    }
+  .big-card:last-child {
+    margin-right: 55px;
+    margin-left: 55px;
+  }
 }
 
 @media screen and (max-width: 947px) and (min-width: 375px) {
-    .big-card {
-        margin-right: 10px;
-        margin-left: 10px;
-    }
-    .big-card:last-child {
-        margin-right: 10px;
-        margin-left: 10px;
-    }
-
-.grid-card {
+  .big-card {
     margin-right: 10px;
     margin-left: 10px;
+  }
+  .big-card:last-child {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .grid-card {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .sub-upper-line {
+    justify-content: space-evenly;
+  }
+
+  .grid-line {
+    justify-content: space-evenly;
+  }
 }
+
+@media screen and (max-width: 715px) and (min-width: 0px) {
+  .upper-line {
+    display: block;
+    margin-top: 40px;
+  }
+
+  .dark-mode-block {
+    justify-content: space-between;
+  }
+
+  .sub-line {
+    width: 100%;
+    height: 1px;
+    background: #50556a;
+    margin-top: 24px;
+    margin-bottom: 16px;
+  }
+
+  .sub-upper-line {
+    margin-top: 40px;
+  }
+
+  .light-part-of-wrapper {
+    height: 235px;
+  }
+
+  .sub-upper-line {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .big-card {
+    /* width: 326px;
+    height: 216px; */
+    width: 100%;
+    min-width: 210px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .grid-line {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .grid-card {
+    width: 100%;
+    min-width: 210px;
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
